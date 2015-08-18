@@ -19,7 +19,7 @@ void draw() {
       PVector index_position = index.getPosition();
       noStroke();
       fill(255, 255, 255);
-      ellipse(index_position.x, index_position.y,20, 20);
+      ellipse(index_position.x, index_position.y, index_position.z/5, index_position.z/5);
       println(index_position.x,index_position.y, index_position.z);
       points.add(index_position);
   }
